@@ -16,7 +16,7 @@ function Hero() {
         <motion.img
           src="/src/assets/profile.jpg"
           alt="Profile"
-          className="w-32 h-32 rounded-full mx-auto mb-6"
+          className="w-80 h-80 rounded-full mx-auto mb-6"
           whileHover={{ scale: 1.1 }}
         />
         <h1 className="text-4xl md:text-6xl font-bold mb-4">

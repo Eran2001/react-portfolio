@@ -20,11 +20,11 @@ function Projects() {
               initial={{ x: index % 2 === 0 ? -100 : 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
-              className="bg-neutral text-dark rounded-lg overflow-hidden shadow-lg"
+              className="rounded-lg overflow-hidden shadow-lg"
             >
               <img
-                src={project.image}
-                alt={project.title}
+                src={projects.image}
+                alt={projects.title}
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">

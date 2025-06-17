@@ -10,14 +10,14 @@ export const projects = [
     id: 1,
     title: "E-Commerce Platform",
     description: "A full-stack e-commerce solution with payment integration.",
-    image: "https://via.placeholder.com/600x400",
+    image: "./assets/1.jpg",
     link: "#",
   },
   {
     id: 2,
     title: "Task Management App",
     description: "A productivity app with real-time collaboration features.",
-    image: "https://via.placeholder.com/600x400",
+    image: "./assets/2.jpg",
     link: "#",
   },
 ];
