@@ -18,7 +18,7 @@ function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg-primary text-white fixed w-full z-50 shadow-lg"
+      className="bg-[#1E3A8A] text-white fixed w-full z-50 shadow-lg"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
@@ -30,7 +30,7 @@ function Navbar() {
               <a
                 key={link.name}
                 href={link.href}
-                className="hover:text-secondary transition duration-300"
+                className="hover:text-[#10B981] transition duration-300"
               >
                 {link.name}
               </a>
@@ -52,14 +52,14 @@ function Navbar() {
           initial={{ height: 0 }}
           animate={{ height: "auto" }}
           transition={{ duration: 0.3 }}
-          className="md:hidden bg-primary"
+          className="md:hidden bg-[#1E3A8A]"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="block px-3 py-2 text-white hover:text-secondary"
+                className="block px-3 py-2 text-white hover:text-[#10B981]"
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}

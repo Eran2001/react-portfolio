@@ -3,7 +3,7 @@ import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
 
 function Contact() {
   return (
-    <section id="contact" className="py-20 bg-neutral">
+    <section id="contact" className="py-20 bg-[#F3F4F6]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2
           initial={{ y: 50, opacity: 0 }}
@@ -20,13 +20,13 @@ function Contact() {
           className="max-w-lg mx-auto"
         >
           <div className="flex items-center mb-6">
-            <EnvelopeIcon className="h-6 w-6 text-primary mr-4" />
+            <EnvelopeIcon className="h-6 w-6 text-[#1E3A8A] mr-4" />
             <a href="mailto:john@example.com" className="text-lg">
               john@example.com
             </a>
           </div>
           <div className="flex items-center mb-6">
-            <PhoneIcon className="h-6 w-6 text-primary mr-4" />
+            <PhoneIcon className="h-6 w-6 text-[#1E3A8A] mr-4" />
             <a href="tel:+1234567890" className="text-lg">
               +1 (234) 567-890
             </a>

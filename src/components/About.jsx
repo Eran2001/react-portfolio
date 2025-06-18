@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <section id="about" className="py-20 bg-dark text-white">
+    <section id="about" className="py-20 bg-[#111827] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2
           initial={{ x: -100, opacity: 0 }}

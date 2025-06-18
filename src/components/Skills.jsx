@@ -3,7 +3,7 @@ import { skills } from "../data";
 
 function Skills() {
   return (
-    <section id="skills" className="py-20 bg-neutral">
+    <section id="skills" className="py-20 bg-[#F3F4F6]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2
           initial={{ y: 50, opacity: 0 }}
@@ -22,7 +22,7 @@ function Skills() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="flex flex-col items-center"
             >
-              <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center mb-4">
+              <div className="w-16 h-16 bg-[#1E3A8A] text-white rounded-full flex items-center justify-center mb-4">
                 {skill.name}
               </div>
               <p className="text-lg font-semibold">{skill.name}</p>

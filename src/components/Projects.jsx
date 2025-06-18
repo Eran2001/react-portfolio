@@ -3,7 +3,7 @@ import { projects } from "../data";
 
 function Projects() {
   return (
-    <section id="projects" className="py-20 bg-dark text-white">
+    <section id="projects" className="py-20 bg-[#111827] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2
           initial={{ y: 50, opacity: 0 }}
@@ -32,7 +32,7 @@ function Projects() {
                 <p className="mb-4">{project.description}</p>
                 <a
                   href={project.link}
-                  className="text-secondary hover:underline"
+                  className="text-[#10B981] hover:underline"
                 >
                   View Project
                 </a>
